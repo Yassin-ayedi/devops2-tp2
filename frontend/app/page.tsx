@@ -44,7 +44,7 @@ async function Articles() {
 export default function Home() {
   return (
     <main>
-      <h1>TP2 — Next.js + Strapi + PostgreSQL</h1>
+      <h1>Next.js + Strapi + PostgreSQL</h1>
       <Suspense fallback={<p>Chargement des articles…</p>}>
         <Articles />
       </Suspense>
